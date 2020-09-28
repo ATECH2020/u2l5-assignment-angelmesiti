@@ -29,7 +29,7 @@ public class HowFarAway
       // end points
       GeoLocation finalLocation = new GeoLocation(lat2, long2);
 
-      double answer = Start.distanceFrom(finalLocation);
+      double answer = initialLocation.distanceFrom(finalLocation);
 
       System.out.print("The distance is " + answer + " miles");
     }
